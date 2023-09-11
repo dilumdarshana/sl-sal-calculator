@@ -7,7 +7,25 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "sl-sal-calculator1",
-    "slug": "sl-sal-calculator1"
+    "name": "sl-sal-calculator",
+    "slug": "sl-sal-calculator",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "73cd4fcc-e126-4ff8-b322-bc4286cccf29"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/73cd4fcc-e126-4ff8-b322-bc4286cccf29"
+    },
+    "android": {
+      "package": "com.dilum.slsalcalculator"
+    },
+    "ios": {}
   }
 }

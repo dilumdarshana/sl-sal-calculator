@@ -1,14 +1,9 @@
-# Expo Router Example
+# Salary Calculator
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+## How to publish to Expo
 
-## 🚀 How to use
+`expo publish OR npx eas update`
 
-```sh
-npx create-expo-app -e with-router
-```
+## How to build on Expo
 
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+`eas build -p android --profile preview`
